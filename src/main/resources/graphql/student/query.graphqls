@@ -1,0 +1,11 @@
+type Query {
+    findAllStudent: [Student]!
+    searchStudentById(id: Int!): Student
+    searchCourseByName(name:String!): Course
+    findAllCourses:[Course]
+}
+#type Query {
+#    searchStudentById:Student!
+#
+#}
+
